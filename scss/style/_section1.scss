@@ -1,0 +1,33 @@
+.s-1{
+    height: 606px;
+    background-image: url("../imgs/photo1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 84px;
+    .infodiv{
+        h1{
+            color: #fff;
+            font-size: 79px;
+            font-family: Helvetica;
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: 31px;
+        }
+        h2{
+            color: #fff;
+            font-size: 19px;
+            font-family: Helvetica;
+            text-align: center;
+        }
+        @media (max-width:400px){
+            h1, h2{
+                font-size: 40px;
+            }
+        }
+    }
+}
+

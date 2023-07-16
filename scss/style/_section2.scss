@@ -5,6 +5,11 @@
     display: flex;
     justify-content: center;
     .newsbox{
+        display: flex;
+        flex-direction: row;
+        @media (max-width:1300px){
+            width: 90%;
+        }
         @media (max-width:1250px){
             flex-direction: column;
             margin: 0 auto;

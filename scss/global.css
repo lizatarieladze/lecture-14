@@ -132,6 +132,15 @@ header .container .fa-bars {
   display: flex;
   justify-content: center;
 }
+.section-2 .newsbox {
+  display: flex;
+  flex-direction: row;
+}
+@media (max-width: 1300px) {
+  .section-2 .newsbox {
+    width: 90%;
+  }
+}
 @media (max-width: 1250px) {
   .section-2 .newsbox {
     flex-direction: column;
